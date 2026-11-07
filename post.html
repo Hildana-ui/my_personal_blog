@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/0fb65af0ab.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Getting started with web development on Hildana's Blog.">
+  <link rel="stylesheet" href="styles.css">
+  <title>Getting Started with Web Development | Hildana's Blog</title>
+</head>
+<body>
+  <div class="page" id="top">
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="index.html"><img src="assets/taichilang.svg" alt="">Hildana's Blog</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" aria-current="page" href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="search-link" href="blog.html" aria-label="Browse blog posts">⌕</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-main container article-layout">
+      <article class="article-content">
+        <a class="back-link" href="blog.html">← Back to Blog</a>
+        <header class="article-header">
+          <h1>Getting Started with Web Development</h1>
+          <div class="post-meta"><span><i class="fa-solid fa-calendar-days"></i> Oct 23, 2026</span><span class="dot"></span><span>By Hildana Solomon</span><span class="dot"></span><span>▰ Web Development</span></div>
+        </header>
+        <img class="article-cover" src="assets/blogThumbnail.png" alt="Laptop displaying code beside a plant">
+        <section>
+          <h2>Introduction</h2>
+          <p>Web development is an exciting field that allows you to build websites and web applications. In this post, we'll cover the basics to get you started.</p>
+        </section>
+        <section>
+          <h2>What You'll Learn</h2>
+          <ul>
+            <li>HTML basics</li>
+            <li>CSS styling</li>
+            <li>JavaScript fundamentals</li>
+          </ul>
+        </section>
+        <section class="comment-section" aria-labelledby="comment-title">
+          <h2 id="comment-title"><i class="fa-solid fa-comment"></i> Leave a Comment</h2>
+          <form class="comment-form" action="#top" method="get">
+            <label for="comment" class="muted">Share your thoughts</label>
+            <textarea id="comment" name="comment" placeholder="Share your thoughts..."></textarea>
+            <button class="btn btn-primary" type="submit">Post Comment</button>
+          </form>
+        </section>
+      </article>
+
+      <aside class="related" aria-labelledby="related-title">
+        <h2 id="related-title">Related Posts</h2>
+        <a class="related-item" href="post.html"><img src="assets/blogThumbnail.png" alt=""><strong>Mobile App Development Basics</strong></a>
+        <a class="related-item" href="post.html"><img src="assets/blogThumbnail.png" alt=""><strong>Boost Your Study Productivity</strong></a>
+        <a class="related-item" href="post.html"><img src="assets/profile.png" alt=""><strong>Top 10 Programming Tips</strong></a>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner container">
+        <p>© 2026 Hildana's Blog. All rights reserved.</p>
+        <nav class="footer-socials" aria-label="Social links">
+          <a href="#top" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#top" aria-label="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+          <a href="#top" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#top" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </nav>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
